@@ -186,4 +186,4 @@ echo $person->displayInfo(); // Output: Name: Bob, Age: 35
 2. **Getter Methods**: Methods like `getName()` and `getAge()` are used to access the values of private properties.
 3. **Setter Methods**: Methods like `setName()` and `setAge()` are used to modify the values of private properties. Additional logic, such as validation, can be included in setter methods to ensure data integrity.
 
-This example demonstrates how encapsulation can be used to protect and manage access to an object's internal state using getter and setter methods. Let me know if you need further explanation or additional examples!
+This example demonstrates how encapsulation can be used to protect and manage access to an object's internal state using getter and setter methods.
