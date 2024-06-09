@@ -1,10 +1,22 @@
-site_name: PHP OOP Book
+site_name: Object-Oriented Programming (OOP) in PHP - A Beginner's Guide
 theme:
   name: material
 markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
   - codehilite
+  - toc:
+      permalink: true
+      separator: "_"
+      title: "Table of Contents"
 nav:
   - Home: README.md
   - Classes and Objects: classes.md
   - Encapsulation: encapsulation.md
   - Inheritance: inheritance.md
+  - Namespaces: namespaces.md
+  - Polymorphism: polymorphism.md
+  - Abstraction: abstraction.md
+  - Exception Handling: exceptions.md
+  - Design Patterns: design-patterns.md
+  - Real-World Applications: real-world-applications.md
