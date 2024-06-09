@@ -1,0 +1,10 @@
+site_name: PHP OOP Book
+theme:
+  name: material
+markdown_extensions:
+  - codehilite
+nav:
+  - Home: README.md
+  - Classes and Objects: classes.md
+  - Encapsulation: encapsulation.md
+  - Inheritance: inheritance.md
