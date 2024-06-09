@@ -1,3 +1,5 @@
+# Classes in PHP: A Beginner's Guide  
+
 Let's create a few simple classes with properties and methods. We'll start with two examples: a `Book` class and a `Person` class.
 
 ### Example 1: `Book` Class

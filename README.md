@@ -59,12 +59,12 @@ echo $car->displayInfo(); // Output: Make: Toyota, Model: Corolla, Year: 2020
 
 ### Step-by-Step Guide to Mastering PHP OOP
 
-#### Step 1: Understanding Classes and Objects
-- [Create simple classes with properties and methods.](classes.md)
+#### [Step 1: Understanding Classes and Objects](classes.md)
+- Create simple classes with properties and methods.
 - Instantiate objects from these classes.
 - Practice using constructors to initialize object properties.
 
-#### Step 2: Encapsulation
+#### [Step 2: Encapsulation](encapsulation.md)
 - Use public, private, and protected access modifiers.
 - Create getter and setter methods for accessing and modifying private properties.
 
