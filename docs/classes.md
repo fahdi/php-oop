@@ -309,7 +309,7 @@ echo $product2->displayInfo(); // Output: Product: Coffee Maker, Price: $49.99, 
 ?>
 ```
 
-### Example 6: `Movie` Class
+### Example 5: `Movie` Class
 
 This class will represent a movie with properties like `title`, `director`, and `releaseYear`. It will also have a method to display the movie's information.
 

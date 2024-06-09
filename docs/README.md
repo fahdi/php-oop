@@ -20,7 +20,10 @@ Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" 
     - [Class Methods](classes.md#class-methods)
     - [Properties](classes.md#properties)
     - [Example: Car Class](classes.md#example-car-class)
-    - [Example: Person Class](classes.md#example-person-class)
+    - [Example: Book Class](classes.md#example-2-book-class)
+    - [Example: Student Class](classes.md#example-3-student-class)
+    - [Example: Product Class](classes.md#example-4-product-class)
+    - [Example: Movie Class](classes.md#example-5-movie-class) 
 
 2. [Encapsulation](encapsulation.md)
     - [Introduction to Encapsulation](encapsulation.md#introduction-to-encapsulation)
