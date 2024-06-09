@@ -163,7 +163,7 @@ In this example, we define a `Car` class with properties for the make and model 
 
 Let's create a few simple classes with properties and methods. We'll start with two examples: a `Book` class and a `Person` class.
 
-### Example 1: `Book` Class
+### Example 2: `Book` Class
 
 This class will represent a book with properties like `title`, `author`, and `year`. It will also have a method to display the book's information.
 
@@ -199,7 +199,7 @@ echo $book2->displayInfo(); // Output: Title: To Kill a Mockingbird, Author: Har
 ?>
 ```
 
-### Example 2: `Person` Class
+### Example 4: `Person` Class
 
 This class will represent a person with properties like `name`, `age`, and `gender`. It will also have a method to display the person's information.
 
@@ -309,7 +309,7 @@ echo $product2->displayInfo(); // Output: Product: Coffee Maker, Price: $49.99, 
 ?>
 ```
 
-### Example 5: `Movie` Class
+### Example 6: `Movie` Class
 
 This class will represent a movie with properties like `title`, `director`, and `releaseYear`. It will also have a method to display the movie's information.
 
