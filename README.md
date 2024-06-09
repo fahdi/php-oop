@@ -68,7 +68,7 @@ echo $car->displayInfo(); // Output: Make: Toyota, Model: Corolla, Year: 2020
 - [Use public, private, and protected access modifiers.](encapsulation.md#example-1-using-public-private-and-protected-access-modifiers)
 - [Create getter and setter methods for accessing and modifying private properties.](encapsulation.md#encapsulation-with-getter-and-setter-methods)
 
-#### Step 3: Inheritance
+#### [Step 3: Inheritance](inheritance.md)
 - Create a base class and extend it with child classes.
 - Override methods in the child class.
 - Use the `parent` keyword to access methods and properties of the parent class.
