@@ -114,4 +114,76 @@ echo $savingsAccount->displayBalance(); // Output: Balance: $1650
 3. **Protected Access Modifier**:
     - Properties and methods are accessible within the class they are defined and by any subclasses.
 
-Encapsulation helps to protect the integrity of the data by controlling access and modification. This way, you can ensure that the internal state of an object is not changed unexpectedly from outside the class.
+   
+## Encapsulation with Getter and Setter Methods
+
+Getter and setter methods are used to access and modify private properties from outside the class. Here’s an example using a `Person` class:
+
+```php
+<?php
+class Person {
+    // Private properties
+    private $name;
+    private $age;
+
+    // Constructor
+    public function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+
+    // Getter for name
+    public function getName() {
+        return $this->name;
+    }
+
+    // Setter for name
+    public function setName($name) {
+        $this->name = $name;
+    }
+
+    // Getter for age
+    public function getAge() {
+        return $this->age;
+    }
+
+    // Setter for age
+    public function setAge($age) {
+        if ($age > 0) {
+            $this->age = $age;
+        } else {
+            echo "Invalid age.\n";
+        }
+    }
+
+    // Method to display person information
+    public function displayInfo() {
+        return "Name: " . $this->name . ", Age: " . $this->age;
+    }
+}
+
+// Creating an object of the Person class
+$person = new Person("Alice", 30);
+
+// Accessing private properties using getter methods
+echo $person->getName(); // Output: Alice
+echo "\n";
+echo $person->getAge(); // Output: 30
+echo "\n";
+
+// Modifying private properties using setter methods
+$person->setName("Bob");
+$person->setAge(35);
+
+// Displaying updated information
+echo $person->displayInfo(); // Output: Name: Bob, Age: 35
+?>
+```
+
+### Key Points:
+
+1. **Private Properties**: Properties are declared as `private` to restrict direct access from outside the class.
+2. **Getter Methods**: Methods like `getName()` and `getAge()` are used to access the values of private properties.
+3. **Setter Methods**: Methods like `setName()` and `setAge()` are used to modify the values of private properties. Additional logic, such as validation, can be included in setter methods to ensure data integrity.
+
+This example demonstrates how encapsulation can be used to protect and manage access to an object's internal state using getter and setter methods. Let me know if you need further explanation or additional examples!

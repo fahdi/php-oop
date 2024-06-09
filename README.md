@@ -65,8 +65,8 @@ echo $car->displayInfo(); // Output: Make: Toyota, Model: Corolla, Year: 2020
 - Practice using constructors to initialize object properties.
 
 #### [Step 2: Encapsulation](encapsulation.md)
-- Use public, private, and protected access modifiers.
-- Create getter and setter methods for accessing and modifying private properties.
+- [Use public, private, and protected access modifiers.](encapsulation.md#example-1-using-public-private-and-protected-access-modifiers)
+- [Create getter and setter methods for accessing and modifying private properties.](encapsulation.md#encapsulation-with-getter-and-setter-methods)
 
 #### Step 3: Inheritance
 - Create a base class and extend it with child classes.
