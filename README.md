@@ -7,7 +7,7 @@ Let's start with the basics of Object-Oriented Programming (OOP) in PHP and grad
 ### Introduction to Object-Oriented Programming (OOP) in PHP
 
 #### 1. Basic Concepts of OOP:
-- **Class**: A blueprint for creating objects (a particular data structure), providing initial values for state (member variables or properties), and implementations of behavior (member functions or methods).
+- **[Class](classes.md)**: A blueprint for creating objects (a particular data structure), providing initial values for state (member variables or properties), and implementations of behavior (member functions or methods).
 - **Object**: An instance of a class.
 - **Property**: A variable that belongs to a class.
 - **Method**: A function that belongs to a class.
@@ -60,7 +60,7 @@ echo $car->displayInfo(); // Output: Make: Toyota, Model: Corolla, Year: 2020
 ### Step-by-Step Guide to Mastering PHP OOP
 
 #### Step 1: Understanding Classes and Objects
-- Create simple classes with properties and methods.
+- [Create simple classes with properties and methods.](classes.md)
 - Instantiate objects from these classes.
 - Practice using constructors to initialize object properties.
 
